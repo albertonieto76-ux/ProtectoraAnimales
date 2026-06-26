@@ -1,0 +1,33 @@
+{
+  "name": "protectoraanimales",
+  "version": "1.0.0",
+  "description": "Se va a crear una página web para adopción de animales de una protectora",
+  "homepage": "https://github.com/albertonieto76-ux/ProtectoraAnimales#readme",
+  "bugs": {
+    "url": "https://github.com/albertonieto76-ux/ProtectoraAnimales/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertonieto76-ux/ProtectoraAnimales.git"
+  },
+  "license": "ISC",
+  "author": "Alberto Nieto López",
+  "type": "module",
+  "imports": {
+    "#domain/*": "./src/domain/*",
+    "#application/*": "./src/application/*",
+    "#infrastructure/*": "./src/infrastructure/*",
+    "#shared/*": "./src/shared/*",
+    "#config/*": "./src/config/*"
+  },
+  "scripts": {
+    "dev": "tsx src/main.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}
